@@ -1,0 +1,313 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font: 14px arial,"Hiragino Sans GB","Hiragino Sans GB W3",\5b8b\4f53;
+}
+/*头部搜索框样式*/
+.header{
+	width: 1000px;
+	height: 41px;
+	margin:0 auto;
+	margin-top: 30px;
+	text-align: center;
+}
+.header_logo{
+	position: relative;
+	top: 13px;
+}
+.header div,form{
+	display: inline-block;
+}
+.changecolor{
+	margin:10px;
+}
+.changecolor .green{
+	width: 30px;
+	border: none;
+	background-color: #099e6a;
+	color: #fff;
+	outline:medium;
+	cursor: pointer;
+}
+.changecolor .pink{
+	width: 30px;
+	border: none;
+	background-color: #FF6666;
+	color: #fff;
+	outline:medium;
+	cursor: pointer;
+}
+.changecolor .blue{
+	width: 30px;
+	border: none;
+	background-color: #0099CC;
+	color: #fff;
+	outline:medium;
+	cursor: pointer;
+}
+.form_search{
+	width: 660px;
+	height: 40px;
+	border: 1px solid #8a8a8a;
+	box-shadow:1px 1px 1px 1px rgba(0,0,0,.2) inset;
+}
+.header_form .form_search .searchbar a{
+	text-decoration: none;
+	margin-left: 5px;
+	font: normal 12px/38px simsun;
+	color: #999;
+}
+.header_form .form_search .searchbar .header_text{
+	width: 448px;
+	height: 35px;
+	border: none;
+	outline:medium;
+	font-size: 16px;
+}
+.header_form .form_search .btn{
+	border-left: 1px solid #8a8a8a;
+	margin-left: 39px;
+}
+.header_form .form_search .btn .header_btn{
+	font-size: 16px;
+	width: 120px;
+	height: 40px;
+	border: none;
+	cursor: pointer;
+	background: #f3f3f3;
+	font-weight:bold;
+}
+/*热搜条样式*/
+.hotsearch{
+	width: 1000px;
+    margin: 0 auto;
+    margin-top: 15px;
+    text-align: center;
+    position: relative;
+    left: -68px;
+}
+.hotsearch a{
+	text-decoration: none;
+    line-height: 20px;
+    font-size: 12px;
+    color: #666;
+    margin-right:30px;
+}
+.hotsearch a:hover{
+	text-decoration: underline;
+    color: #f30;
+}
+.hotsearch #a1{
+	color: #090;
+	margin-right: 5px;
+}
+.hotsearch #a1:hover{
+	color: #090;
+}
+.hotsearch #a2{
+	color: #090;
+	margin-left: 40px;
+	margin-right: 5px;
+}
+.hotsearch #a2:hover{
+	color: #090;
+}
+/*主导航样式*/
+#nav{
+	width: 990px;
+	height: 38px;
+	margin: 0 auto;
+    border-top: 2px solid #099e6a;
+    border-bottom: 1px solid #eaeaea;
+    background-color: #fcfcfc;
+    margin-top: 20px;
+}
+#nav ul{
+	list-style: none;
+}
+#nav ul li{
+	width: 102px;
+	height: 38px;
+    line-height: 38px;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    display: list-item;
+    float: left; 
+}
+#nav ul li a{
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+	font-family: Microsoft Yahei;
+    font-size: 16px;
+	color: #333;
+}
+#nav ul #index{
+	width: 72px;
+	background-color: #0aa770;
+} 
+#nav ul #index a{
+	color: #fff;
+}
+#nav ul li span{
+	display: block;
+	width: 1px;
+    height: 25px;
+    position: absolute;
+    top:134px; 
+    background: url(images/menus_split.png) center left no-repeat;
+}
+/*主页内容样式*/
+.maincontent{
+	width: 990px;
+	margin:0 auto;
+	margin-top: 10px;
+}
+/*左边栏样式*/
+.leftcontent{
+	width: 278px;
+	height:230px; 
+	border: 1px solid #cecece;
+	display: inline-block;
+	position: relative;
+	top:-6px;
+}
+.leftcontent img{
+	position: relative;
+	top:-3px;
+	left: -5px;
+}
+.leftcontent a{
+	display: inline-block;
+	margin-top: 3px;
+	margin-left: 5px;
+	color: #333;
+	text-decoration: none;
+}
+.leftcontent a:hover{
+	text-decoration:underline;
+}
+/*正文内容样式*/
+.rightcontent{
+	width:700px;
+	border: 1px solid #cecece;
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	left: 4px;
+}
+.rightcontent a{
+	color: #333;
+	text-align: left;
+}
+.rightcontent a:hover{
+	text-decoration: underline;
+}
+.rightcontent .upcontent{
+	width: 100%;
+	height: 90px;
+}
+.rightcontent div ul{
+	list-style: none;
+}
+.rightcontent div ul li{
+	width: 115px;
+	height: 27px;
+    line-height: 27px;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    display: list-item;
+    float: left;
+}
+.rightcontent div ul li a{
+	text-decoration: none;
+	padding-left: 20px;
+}
+.rightcontent div ul li .a_back{
+	padding-left: 5px;
+}
+.baidu{
+	background: url(images/defaultIcon.png) no-repeat 2px -200px;
+}
+.xinlang{
+	background: url(images/defaultIcon.png) no-repeat 2px -280px;
+}
+.souhu{
+	background: url(images/defaultIcon.png) no-repeat 2px -320px;
+}
+.tengxun{
+	background: url(images/defaultIcon.png) no-repeat 2px -40px;
+}
+.wangyi{
+	background: url(images/defaultIcon.png) no-repeat 2px -159px;
+}
+.aiqiyi{
+	background: url(images/aiqiyi.png) no-repeat;
+}
+.tianmao{
+	background: url(images/tianmao.png) no-repeat;
+}
+.fenghuang{
+	background: url(images/defaultIcon.png) no-repeat 2px -240px;
+}
+.taobao{
+	background: url(images/defaultIcon.png) no-repeat  2px -360px;
+}
+.freegame{
+	background: url(images/freegame.png) no-repeat;
+}
+.game4399{
+	background: url(images/defaultIcon.png) no-repeat 2px 0;
+}
+.xinhua{
+	background: url(images/xinhua.png) no-repeat;
+}
+.jingdong{
+	background: url(images/jingdong.png) no-repeat;
+}
+.juhuasuan{
+	background: url(images/juhuasuan.png) no-repeat;
+}
+.tejia{
+	background: url(images/tejia.png) no-repeat;
+}
+.yingshi{
+	background: url(images/yingshi.png) no-repeat;
+}
+.car{
+	background: url(images/defaultIcon.png) no-repeat 2px -520px;
+}
+.quna{
+	background: url(images/quna.png) no-repeat;
+}
+.downcontent{
+	margin-top: 5px;
+}
+.downcontent div ul{
+	list-style: none;
+}
+.downcontent div ul li{
+	width: 115px;
+	height: 27px;
+    line-height: 27px;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    display: list-item;
+    float: left;
+}
+.downcontent div ul li a{
+	text-decoration: none;
+	padding-left: 20px;
+}
+.downcontent div ul li .a_back{
+	padding-left: 5px;
+}
+#a3,#a4,#a5,#a6,#a7,#a8{
+	color: #099e6a;
+}
+
